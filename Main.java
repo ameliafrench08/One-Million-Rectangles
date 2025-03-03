@@ -17,7 +17,7 @@ public class Main {
         Random rand = new Random();
 
         while (timesLeft != 0){
-            Rectangle rectangle = new Rectangle(rand.nextInt(41) + 10, rand.nextInt(16) + 5, rand.nextInt(51), rand.nextInt(51));
+            Rectangle rectangle = new Rectangle(rand.nextInt(41) + 10, rand.nextInt(6) + 5, rand.nextInt(50), rand.nextInt(50));
             rectangles.add(rectangle);
             timesLeft--;
         }
@@ -29,7 +29,7 @@ public class Main {
         }
 
 
-        System.out.println("PERCENTAGE: " + (100 * ((double) numIntersect/1000000)));
+        System.out.println("PERCENTAGE: " + (100 * ((double) numIntersect/1000000)) + "%");
 
     }
 }

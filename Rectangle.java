@@ -19,14 +19,6 @@ public class Rectangle {
         return topLeftY - width;
     }
 
-    public int getLength(){
-        return length;
-    }
-
-    public int getWidth(){
-        return width;
-    }
-
     public int getTopLeftX(){
         return topLeftX;
     }
